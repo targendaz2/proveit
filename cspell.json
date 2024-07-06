@@ -1,0 +1,27 @@
+{
+  "version": "0.2",
+  "ignorePaths": [
+    "*.lock",
+    ".prettier*",
+    ".devcontainer/",
+    ".vscode/*",
+    "node_modules/"
+  ],
+  "dictionaryDefinitions": [],
+  "dictionaries": [
+    "misc",
+    "node",
+    "npm",
+    "typescript"
+  ],
+  "words": [
+    "dgrdev",
+    "proveit"
+  ],
+  "ignoreWords": [
+    "targendaz2",
+    "trivago",
+    "tseslint"
+  ],
+  "import": []
+}

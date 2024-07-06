@@ -1,0 +1,23 @@
+{
+  "importOrder": ["^(node:)", "^(@.*)", "<THIRD_PARTY_MODULES>", "^[./]"],
+  "importOrderSortSpecifiers": true,
+  "overrides": [
+    {
+      "files": ["*.config.mjs", "*.config.ts", "*.json", ".markdownlintrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.yml"],
+      "options": {
+        "singleQuote": false,
+        "tabWidth": 2
+      }
+    }
+  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "singleQuote": true,
+  "tabWidth": 4,
+  "trailingComma": "all"
+}
