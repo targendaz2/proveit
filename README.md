@@ -12,7 +12,7 @@ This package adds additional assertions and type checkers to Node.js projects.
 This package is available on npm as [`proveit`](https://npmjs.com/package/proveit).
 
 ```bash
-npm install -D jest proveit
+npm install proveit
 ```
 
 ## Usage
